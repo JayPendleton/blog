@@ -26,7 +26,7 @@ export default function AboutPage() {
         <h2>Contact</h2>
         <p>
           For inquiries, email{" "}
-          <a href="mailto:javonnasam@gmail.com">javonnasam@gmail.com</a>.
+          <a href="mailto:jaypendleton07@gmail.com">jaypendleton07@gmail.com</a>.
         </p>
       </article>
     </main>
