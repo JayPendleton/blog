@@ -52,7 +52,7 @@ button {
   justify-content: space-between;
   align-items: baseline;
   gap: 24px;
-  margin-bottom: clamp(72px, 13vw, 170px);
+  margin-bottom: clamp(72px, 13vw, 100px);
 }
 
 .name {
@@ -83,7 +83,7 @@ button {
   grid-template-columns: minmax(0, 0.96fr) minmax(240px, 0.5fr);
   gap: clamp(36px, 8vw, 110px);
   align-items: start;
-  margin-bottom: clamp(88px, 13vw, 170px);
+  margin-bottom: clamp(88px, 13vw, 100px);
 }
 
 .kicker {

@@ -45,7 +45,7 @@ export default function HomePage() {
 
       <section className="intro">
         <div>
-          <p className="kicker">Systems / Technology / exploration / discipline</p>
+          <p className="kicker">Systems / Technology / exploration /</p>
           <h1>I build things, read things, and test ideas in an effort to become harder to distract.</h1>
           <p className="intro-copy">
             Consider this a public notebook for the systems, tools, and lessons I’m collecting along the way.
