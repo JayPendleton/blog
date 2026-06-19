@@ -98,7 +98,7 @@ button {
 .intro h1 {
   max-width: 850px;
   margin: 0;
-  font-size: clamp(46px, 8.2vw, 112px);
+  font-size: clamp(46px, 8.2vw, 100px);
   line-height: 0.94;
   letter-spacing: -0.088em;
   font-weight: 300;
@@ -108,9 +108,9 @@ button {
   margin: 24px 0 0;
   max-width: 720px;
   color: var(--ink);
-  font-size: clamp(22px, 2.8vw, 38px);
+  font-size: clamp(20px, 2.8vw, 24px);
   line-height: 1.12;
-  letter-spacing: -0.06em;
+  letter-spacing: -0.05em;
   font-weight: 300;
 }
 
@@ -304,6 +304,13 @@ button {
   .row-meta {
     grid-column: 2;
   }
+
+  /* .pages{
+    color: #220ced;
+  }
+  .pages .row-title{
+    color:#220ced
+  } */
 
   .footer {
     display: grid;

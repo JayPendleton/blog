@@ -1,11 +1,12 @@
 import Link from "next/link";
 import { content, sections } from "./data/content";
+import "./globals.css";
 
 function SectionIndex({
   id,
   label,
 }: {
-  id: "essays" | "projects" | "notes";
+  id: "blog" | "projects" | "notes";
   label: string;
 }) {
   const items = content.filter((item) => item.section === id);
@@ -36,7 +37,7 @@ export default function HomePage() {
         </Link>
 
         <nav className="nav" aria-label="Main navigation">
-          <a href="#essays">Essays</a>
+          <a href="#essays">Blog</a>
           <a href="#projects">Projects</a>
           <a href="#notes">Notes</a>
           <Link href="/about">About</Link>
@@ -45,11 +46,10 @@ export default function HomePage() {
 
       <section className="intro">
         <div>
-          <p className="kicker">Systems / Technology / exploration /</p>
-          <h1>I build things, read things, and test ideas in an effort to become harder to distract.</h1>
+          <p className="kicker">Systems / Technology / exploration</p>
+          <h1>I’m interested in how technology shapes attention, identity, and decision-making.</h1>
           <p className="intro-copy">
             Consider this a public notebook for the systems, tools, and lessons I’m collecting along the way.
-             I’m interested in how technology shapes attention, identity, and decision-making. 
             If something here resonates, I hope it helps you think more clearly about your own path.
             
             {/* Essays, projects, and notes on personal operating systems,
@@ -68,6 +68,7 @@ export default function HomePage() {
         </aside> */}
       </section>
 
+
       {sections.map((section) => (
         <SectionIndex
           key={section.id}
@@ -75,6 +76,7 @@ export default function HomePage() {
           label={section.label}
         />
       ))}
+
 
       <footer className="footer">
         <span>For inquiries: jaypendleton07@gmail.com</span>

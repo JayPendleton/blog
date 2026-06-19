@@ -2,7 +2,7 @@ export type ContentItem = {
   slug: string;
   title: string;
   year: string;
-  section: "essays" | "projects" | "notes";
+  section: "blog" | "projects" | "notes";
   description: string;
   body: string[];
 };
@@ -12,7 +12,7 @@ export const content: ContentItem[] = [
     slug: "personal-operating-system",
     title: "Personal Operating System",
     year: "2026",
-    section: "essays",
+    section: "blog",
     description:
       "On building software that decides, prioritizes, and supports execution instead of only tracking information.",
     body: [
@@ -51,7 +51,7 @@ export const content: ContentItem[] = [
     slug: "soft-software",
     title: "Soft Software",
     year: "2026",
-    section: "essays",
+    section: "blog",
     description:
       "A short note on quiet interfaces, restraint, whitespace, and products that feel calm enough to use every day.",
     body: [
@@ -77,8 +77,8 @@ export const content: ContentItem[] = [
 
 export const sections = [
   {
-    id: "essays",
-    label: "Essays",
+    id: "blog",
+    label: "Blog",
     description: "Longer pieces on software, discipline, design, and systems."
   },
   {

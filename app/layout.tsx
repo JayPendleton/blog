@@ -10,7 +10,7 @@ const manrope = Manrope({
 
 export const metadata: Metadata = {
   title: "Jay P",
-  description: "Essays, projects, systems, and notes by Jay P.",
+  description: "Blog, projects, systems, and notes by Jay P.",
 };
 
 export default function RootLayout({
