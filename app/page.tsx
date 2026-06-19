@@ -73,7 +73,7 @@ export default function HomePage() {
       ))}
 
       <footer className="footer">
-        <span>For inquiries: javonnasam@gmail.com</span>
+        <span>For inquiries: jaypendleton07@gmail.com</span>
         <span>© 2026 Jay P</span>
       </footer>
     </main>
