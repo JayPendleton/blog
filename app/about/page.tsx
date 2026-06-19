@@ -7,7 +7,7 @@ export default function AboutPage() {
 
       <h1>About</h1>
 
-      <p className="page-description">
+      {/* <p className="page-description">
        I am a Data Analyst, Developer, and Integration Solutions Lead with experience building and supporting 
        AI solutions for organizational AI and analytics communities. My work combines data management, strategy, 
        and creativity to improve processes and user experiences. Previously, I’ve held roles in data product management, 
@@ -40,7 +40,7 @@ Maybe you'll even discover something new about yourself along the way.
           For inquiries, email{" "}
           <a href="mailto:jaypendleton07@gmail.com">jaypendleton07@gmail.com</a>.
         </p>
-      </article>
+      </article> */}
     </main>
   );
 }

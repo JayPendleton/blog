@@ -45,15 +45,19 @@ export default function HomePage() {
 
       <section className="intro">
         <div>
-          <p className="kicker">Systems / AI / design / discipline</p>
-          <h1>I build tools and write about becoming harder to distract.</h1>
+          <p className="kicker">Systems / Technology / exploration / discipline</p>
+          <h1>I build things, read things, and test ideas in an effort to become harder to distract.</h1>
           <p className="intro-copy">
-            Essays, projects, and notes on personal operating systems,
-            agentic software, product taste, and daily execution.
+            Consider this a public notebook for the systems, tools, and lessons I’m collecting along the way.
+             I’m interested in how technology shapes attention, identity, and decision-making. 
+            If something here resonates, I hope it helps you think more clearly about your own path.
+            
+            {/* Essays, projects, and notes on personal operating systems,
+            agentic software, product taste, and daily execution. */}
           </p>
         </div>
 
-        <aside className="side-note">
+        {/* <aside className="side-note">
           <p>
             I am Jay. I work on software, systems, finance habits, life design,
             and tools that help people make better decisions.
@@ -61,7 +65,7 @@ export default function HomePage() {
           <p>
             This site is a public notebook for what I am building and learning.
           </p>
-        </aside>
+        </aside> */}
       </section>
 
       {sections.map((section) => (
