@@ -47,7 +47,7 @@ export default function HomePage() {
       <section className="intro">
         <div>
           <p className="kicker">Systems / Technology / exploration</p>
-          <h1>I’m interested in how technology shapes attention, identity, and decision-making.</h1>
+          <h1>Observing how technology shapes attention, identity, and decision-making.</h1>
           <p className="intro-copy">
             Consider this a public notebook for the systems, tools, and lessons I’m collecting along the way.
             If something here resonates, I hope it helps you think more clearly about your own path.
