@@ -37,7 +37,7 @@ export default function HomePage() {
         </Link>
 
         <nav className="nav" aria-label="Main navigation">
-          <a href="#essays">Blog</a>
+          <a href="#blog">Blog</a>
           <a href="#projects">Projects</a>
           <a href="#notes">Notes</a>
           <Link href="/about">About</Link>
