@@ -23,7 +23,8 @@ Facial recognition is a widely used technology to access phones or applications.
 
 <p>List of technologies that use different types of ANNs:</p>
 	
- <li><h4>Speech and Voice Recognition</h4></li>
+<ul>
+	 <li><h4>Speech and Voice Recognition</h4></li>
     
 		 Siri, Alexa, Google Assistant <br/>
 		YouTube captions
@@ -58,7 +59,7 @@ Facial recognition is a widely used technology to access phones or applications.
 	<li><h4> Environmental</h4></li>
 		○ Weather prediction<br/>
 		○ Climate change simulations
-    
+    </ul>
     
 
 <p>Artificial Intelligence Neural Networks (ANNs) contribution represents a small fragment in the vast landscape of Artificial Intelligence. The broader picture is made up of various models and technologies like Machine Learning, Deep Learning, Natural Language Processing (NLP), and most recent advancements such as Large Language Models (LLMs). These models are often integrated with ANNs to drive innovation and the evolution of intelligent technology. This means enhanced communication, advancing healthcare, tasks are automated, boosting productivity, and ultimately life is more convenient. Yet, that convenience comes at a cost.
