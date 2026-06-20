@@ -4,7 +4,6 @@ export type ContentItem = {
   year: string;
   section: "blog" | "projects" | "notes";
   description: string;
-  body: string;
 };
 
 export const content: ContentItem[] = [
@@ -17,8 +16,7 @@ export const content: ContentItem[] = [
     section: "blog",
     description:
       "Conversation around environmental risks of Artificial Intelligence.",
-    body: 
-'',
+    
     
   },
 
@@ -31,11 +29,7 @@ export const content: ContentItem[] = [
     section: "blog",
     description:
       "Building software that decides, prioritizes, and supports execution instead of only tracking information.",
-    body: `
-      Coming soon
-
-        `,
-  },
+      },
   {
     slug: "personal-dashboard",
     title: "Personal Dashboard",
@@ -43,9 +37,6 @@ export const content: ContentItem[] = [
     section: "projects",
     description:
       "A personal command center for tasks, routines, finance, proof uploads, AI insight, and daily reflection.",
-    body: `
-      Coming soon
-       `,
   },
   {
     slug: "proof-album",
@@ -54,10 +45,6 @@ export const content: ContentItem[] = [
     section: "projects",
     description:
       "A memory layer for capturing visible evidence of progress, receipts, work, and personal wins.",
-    body: `
-      Coming soon
-    
-    `,
   },
   {
     slug: "soft-software",
@@ -67,10 +54,6 @@ export const content: ContentItem[] = [
     description:
     "Software",
       // "A short note on quiet interfaces, restraint, whitespace, and products that feel calm enough to use every day.",
-    body: `
-      Coming soon
-  
-    `,
   },
   {
     slug: "agentic-life-systems",
@@ -79,9 +62,6 @@ export const content: ContentItem[] = [
     section: "notes",
     description:
       "Notes on software that forecasts, recommends, adapts, and helps run the day instead of only recording it.",
-    body: `
-      Coming soon
-    `,
   }
 ];
 
