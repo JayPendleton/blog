@@ -1,38 +1,28 @@
 import Link from "next/link";
-import { notFound } from "next/navigation";
-import { content } from "../../data/content";
+import { content } from "../data/content";
 
-export function generateStaticParams() {
-  return content
-    .filter((item) => item.section === "blog")
-    .map((item) => ({ slug: item.slug }));
-}
+export default function BlogPage() {
+const posts = content.filter((item) => item.section === "blog");
 
-export default async function EssayPage({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}) {
-  const { slug } = await params;
-  const item = content.find((entry) => entry.slug === slug && entry.section === "blog");
+return (
+<main className="page">
+<Link className="back" href="/">
+← Home
+</Link>
 
-  if (!item) notFound();
+<h1>Blog</h1>
 
-  return (
-    <main className="page">
-      <Link className="back" href="/#blog">← Blog</Link>
-
-      <h1>{item.title}</h1>
-      <p className="article-meta">{item.year}</p>
-
-      <article className="article">
-         {item.body
-         .trim()
-         .split("\n")
-         .map((paragraph, index) => (
-          <p key={index}>{paragraph}</p>
-        ))}
-      </article>
-    </main>
-  );
+<div className="index-list">
+{posts.map((item, index) => (
+<Link className="row" href={`/blog/${item.slug}`} key={item.slug}>
+<span className="row-num">
+{String(index + 1).padStart(2, "0")}
+</span>
+<span className="row-title">{item.title}</span>
+<span className="row-meta">{item.year}</span>
+</Link>
+))}
+</div>
+</main>
+);
 }
