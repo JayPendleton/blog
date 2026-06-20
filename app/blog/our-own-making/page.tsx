@@ -1,11 +1,12 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import "../blog.css";
+
 export default function OurOwnMaking() {
   return (
     <article className="blog-post">
        <Link className="back" href="/">← Home</Link>
-       
+
       <h1>Our Own Making</h1>
 
       <p>
