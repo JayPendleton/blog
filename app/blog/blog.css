@@ -1,0 +1,33 @@
+.blog-post {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4rem 1rem;
+  line-height: 1.8;
+}
+
+.blog-post h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.blog-post h2 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.blog-post p {
+  margin-bottom: 1.0rem;
+}
+
+.blog-post ul {
+  margin: 1rem 0 1rem;
+  padding-left: 1.5rem;
+}
+
+.blog-post li {
+  margin-bottom: -0.5rem;
+}
+
+.blog-post hr {
+  margin: 3rem 0;
+}

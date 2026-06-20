@@ -4,35 +4,48 @@ export type ContentItem = {
   year: string;
   section: "blog" | "projects" | "notes";
   description: string;
-  body: string[];
+  body: string;
 };
 
 export const content: ContentItem[] = [
+
+
+ {
+    slug: "our-own-making",
+    title: "Our Own Making",
+    year: "2025",
+    section: "blog",
+    description:
+      "Conversation around environmental risks of Artificial Intelligence.",
+    body: 
+'',
+    
+  },
+
+
+
   {
     slug: "personal-operating-system",
     title: "Personal Operating System",
     year: "2026",
     section: "blog",
     description:
-      "On building software that decides, prioritizes, and supports execution instead of only tracking information.",
-    body: [
-      "Most productivity tools are passive. They store tasks, routines, and analytics, but they rarely help decide what matters next.",
-      "A personal operating system should make the next move obvious. It should protect attention, surface tradeoffs, and reduce the number of choices required to move forward.",
-      "The best version of this software feels less like a dashboard and more like a quiet operator."
-    ]
+      "Building software that decides, prioritizes, and supports execution instead of only tracking information.",
+    body: `
+      Coming soon
+
+        `,
   },
   {
-    slug: "daily-dashboard",
-    title: "Daily Dashboard",
+    slug: "personal-dashboard",
+    title: "Personal Dashboard",
     year: "2026",
     section: "projects",
     description:
       "A personal command center for tasks, routines, finance, proof uploads, AI insight, and daily reflection.",
-    body: [
-      "Daily Dashboard is a system for turning daily life into visible execution. It brings routines, tasks, finance, and reflection into a single interface.",
-      "The project began as a tracker and is evolving toward an agentic assistant: one that rolls tasks forward, creates daily priorities, and recommends what to do next.",
-      "The long-term goal is to create software that supports discipline without adding friction."
-    ]
+    body: `
+      Coming soon
+       `,
   },
   {
     slug: "proof-album",
@@ -41,11 +54,10 @@ export const content: ContentItem[] = [
     section: "projects",
     description:
       "A memory layer for capturing visible evidence of progress, receipts, work, and personal wins.",
-    body: [
-      "Proof Album is built around a simple idea: progress becomes more powerful when it is visible.",
-      "By attaching proof to tasks, the system creates an archive of effort, not just a list of completed items.",
-      "Over time, this becomes a personal evidence base for reflection and self-trust."
-    ]
+    body: `
+      Coming soon
+    
+    `,
   },
   {
     slug: "soft-software",
@@ -53,12 +65,12 @@ export const content: ContentItem[] = [
     year: "2026",
     section: "blog",
     description:
-      "A short note on quiet interfaces, restraint, whitespace, and products that feel calm enough to use every day.",
-    body: [
-      "A calm interface is not an empty interface. It is a system where hierarchy is created through space, proportion, and timing.",
-      "Soft software gives the user room. It does not compete with the work. It frames the work.",
-      "The most useful software often disappears at the exact moment you begin using it."
-    ]
+    "Software",
+      // "A short note on quiet interfaces, restraint, whitespace, and products that feel calm enough to use every day.",
+    body: `
+      Coming soon
+  
+    `,
   },
   {
     slug: "agentic-life-systems",
@@ -67,11 +79,9 @@ export const content: ContentItem[] = [
     section: "notes",
     description:
       "Notes on software that forecasts, recommends, adapts, and helps run the day instead of only recording it.",
-    body: [
-      "Agentic software should understand context. It should know when the user is overloaded, when momentum is low, and when a task should be moved.",
-      "The interface is only one layer. The real value is judgment.",
-      "The future of personal software is not more dashboards. It is better delegation."
-    ]
+    body: `
+      Coming soon
+    `,
   }
 ];
 

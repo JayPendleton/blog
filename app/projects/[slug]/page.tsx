@@ -26,7 +26,7 @@ export default async function ProjectPage({
       <p className="article-meta">{item.year}</p>
 
       <article className="article">
-        {item.body.map((paragraph) => (
+        {item.body.split("/n/n").map((paragraph) => (
           <p key={paragraph}>{paragraph}</p>
         ))}
       </article>

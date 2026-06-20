@@ -238,7 +238,7 @@ button {
 
 .article p {
   margin: 0 0 28px;
-  font-size: clamp(20px, 2.25vw, 28px);
+  font-size: clamp(20px, 2.25vw, 16px);
   line-height: 1.35;
   letter-spacing: -0.04em;
   font-weight: 300;
@@ -248,7 +248,7 @@ button {
   margin: 60px 0 18px;
   font-size: clamp(30px, 4vw, 54px);
   line-height: 1;
-  letter-spacing: -0.07em;
+  letter-spacing: -0.05em;
   font-weight: 300;
 }
 

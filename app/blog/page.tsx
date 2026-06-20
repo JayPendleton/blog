@@ -26,8 +26,11 @@ export default async function EssayPage({
       <p className="article-meta">{item.year}</p>
 
       <article className="article">
-        {item.body.map((paragraph) => (
-          <p key={paragraph}>{paragraph}</p>
+         {item.body
+         .trim()
+         .split("\n")
+         .map((paragraph, index) => (
+          <p key={index}>{paragraph}</p>
         ))}
       </article>
     </main>
