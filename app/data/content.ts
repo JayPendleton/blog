@@ -14,8 +14,7 @@ export const content: ContentItem[] = [
     title: "Our Own Making",
     year: "2025",
     section: "blog",
-    description:
-      "Conversation around environmental risks of Artificial Intelligence.",
+    description: "Conversation around environmental risks of Artificial Intelligence.",
     
     
   },
