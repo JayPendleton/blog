@@ -6,7 +6,8 @@
   --bg: #ffffff;
   --ink: #111111;
   --muted: #626262;
-  --faint: #a6a6a6;
+  --faint: #4823ed;
+  /* --faint: #a6a6a6; */
   --line: #e5e5e5;
   --max: 1040px;
 }
