@@ -286,7 +286,7 @@ button {
   }
 
   .intro h1 {
-    font-size: clamp(52px, 16vw, 82px);
+    font-size: clamp(42px, 16vw, 62px);
   }
 
   .intro-copy {
