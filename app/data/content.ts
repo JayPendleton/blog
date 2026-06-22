@@ -12,7 +12,7 @@ export const content: ContentItem[] = [
  {
     slug: "our-own-making",
     title: "Our Own Making",
-    year: "2025",
+    year: "Oct 13th, 2025",
     section: "blog",
     description: "Conversation around environmental risks of Artificial Intelligence.",
     
@@ -22,7 +22,7 @@ export const content: ContentItem[] = [
    {
     slug: "2-2-5",
     title: "2 + 2 = 5",
-    year: "2025",
+    year: "Oct 20th, 2025",
     section: "blog",
     description: "How to use AI tools responsibly and emphasizing user controls around AI.",
     
@@ -32,7 +32,7 @@ export const content: ContentItem[] = [
    {
     slug: "making-mondays-mine",
     title: "Making Mondays Mine",
-    year: "2025",
+    year: "Oct 27th, 2025",
     section: "blog",
     description: "Turning Mondays from dreadful to intentional. How I use structure, style, and a bit of scrum to start my week on my own terms.",
     
@@ -42,7 +42,7 @@ export const content: ContentItem[] = [
    {
     slug: "its-the-phones",
     title: "It's the Phones",
-    year: "2025",
+    year: "Dec 8th, 2025",
     section: "blog",
     description: "Constant digital overload is distorting our mental health. How can we fix this?",
     
