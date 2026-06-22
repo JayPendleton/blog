@@ -9,9 +9,7 @@ export default function OurOwnMaking() {
 
       <h1>Our Own Making</h1>
 
-      <p>
-        Our Own Making
-Who bears responsibility for the environmental consequences around Artificial Intelligence? Many consumers point fingers at corporations, accusing them of building massive data centers that pollute nearby areas and displace marginalized communities by acquiring land and inflating costs. Even so, humanity’s growing appetite for convenience fuels greater consumption; thus, encouraging environmental toll.
+      <p>Who bears responsibility for the environmental consequences around Artificial Intelligence? Many consumers point fingers at corporations, accusing them of building massive data centers that pollute nearby areas and displace marginalized communities by acquiring land and inflating costs. Even so, humanity’s growing appetite for convenience fuels greater consumption; thus, encouraging environmental toll.
 Engineers are often termed as individuals who identify problems, or convince society that a problem exists, then design and execute solutions. In order for engineers to decrease or reform their engineering, society has to decrease its demand. This would mean less consumption of social media, chatbots, and automations. We'd have to rely on human thinking, human connection, and placing limits on sharing personal information. There has to be a balance between technological advancement and authenticity.
 </p>
 
