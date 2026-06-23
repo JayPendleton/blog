@@ -49,6 +49,16 @@ export const content: ContentItem[] = [
     
   },
 
+    {
+    slug: "upload-to-harddrive",
+    title: "How to Transfer Files from iCloud to an External Hard Drive",
+    year: "Nov 12th, 2025",
+    section: "blog",
+    description: "How to Transfer Files from iCloud to an External Hard Drive",
+    
+    
+  },
+
 
   {
     slug: "personal-operating-system",
