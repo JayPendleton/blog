@@ -8,23 +8,32 @@ export type ContentItem = {
 
 export const content: ContentItem[] = [
 
-
- {
-    slug: "our-own-making",
-    title: "Our Own Making",
-    year: "Oct 13th, 2025",
+  
+  {
+    slug: "personal-operating-system",
+    title: "Personal Operating System",
+    year: "2026",
     section: "blog",
-    description: "Conversation around environmental risks of Artificial Intelligence.",
+    description:
+      "Coming soon. Building software that decides, prioritizes, and supports execution instead of only tracking information.",
+      },
+
+        {
+    slug: "its-the-phones",
+    title: "It's the Phones",
+    year: "Dec 8th, 2025",
+    section: "blog",
+    description: "Constant digital overload is distorting our mental health. How can we fix this?",
     
     
   },
 
-   {
-    slug: "2-2-5",
-    title: "2 + 2 = 5",
-    year: "Oct 20th, 2025",
+  {
+    slug: "upload-to-harddrive",
+    title: "How to Transfer Files from iCloud to an External Hard Drive",
+    year: "Nov 12th, 2025",
     section: "blog",
-    description: "How to use AI tools responsibly and emphasizing user controls around AI.",
+    description: "How to Transfer Files from iCloud to an External Hard Drive",
     
     
   },
@@ -40,34 +49,27 @@ export const content: ContentItem[] = [
   },
 
    {
-    slug: "its-the-phones",
-    title: "It's the Phones",
-    year: "Dec 8th, 2025",
+    slug: "2-2-5",
+    title: "2 + 2 = 5",
+    year: "Oct 20th, 2025",
     section: "blog",
-    description: "Constant digital overload is distorting our mental health. How can we fix this?",
+    description: "How to use AI tools responsibly and emphasizing user controls around AI.",
     
     
   },
 
-    {
-    slug: "upload-to-harddrive",
-    title: "How to Transfer Files from iCloud to an External Hard Drive",
-    year: "Nov 12th, 2025",
+   {
+    slug: "our-own-making",
+    title: "Our Own Making",
+    year: "Oct 13th, 2025",
     section: "blog",
-    description: "How to Transfer Files from iCloud to an External Hard Drive",
+    description: "Conversation around environmental risks of Artificial Intelligence.",
     
     
   },
 
 
-  {
-    slug: "personal-operating-system",
-    title: "Personal Operating System",
-    year: "2026",
-    section: "blog",
-    description:
-      "Coming soon. Building software that decides, prioritizes, and supports execution instead of only tracking information.",
-      },
+
   // {
   //   slug: "personal-dashboard",
   //   title: "Personal Dashboard",
