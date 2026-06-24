@@ -51,7 +51,7 @@ export default function HomePage() {
             </h1>
             {/* </h1> */}
           <p className="intro-copy">
-            Observing how technology shapes attention, identity, and decision-making.
+            Observing how technology shapes attention, identity, taste and decision-making.
             If something here resonates, I hope it helps you think more clearly about your own path.
             {/* Essays, projects, and notes on personal operating systems,
             agentic software, product taste, and daily execution. */}
