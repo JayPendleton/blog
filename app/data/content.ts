@@ -18,6 +18,16 @@ export const content: ContentItem[] = [
       "Coming soon. Building software that decides, prioritizes, and supports execution instead of only tracking information.",
       },
 
+   {
+    slug: "personal-finance-agent",
+    title: "Personal Finance Agent with Copilot Studio",
+    year: "March 7th, 2026",
+    section: "blog",
+    description: "Constant digital overload is distorting our mental health. How can we fix this?",
+    
+    
+  },
+
         {
     slug: "its-the-phones",
     title: "It's the Phones",
