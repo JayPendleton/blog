@@ -88,6 +88,14 @@ export const content: ContentItem[] = [
   //   description:
   //     "A personal command center for tasks, routines, finance, proof uploads, AI insight, and daily reflection.",
   // },
+   {
+    slug: "brain-studio",
+    title: "BrainSTUDIO",
+    year: "June 29th, 2026",
+    section: "projects",
+    description:
+      "Taking real research papers and creating research briefs that provides insights and connects market trends.",
+  },
   {
     slug: "proof-album",
     title: "Proof Album",
