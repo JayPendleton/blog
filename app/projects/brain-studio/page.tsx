@@ -25,7 +25,43 @@ export default function BrainStudio() {
 
        </p>
 
+       <div
+style={{
+position: "relative",
+paddingBottom: "56.25%",
+height: 0,
+overflow: "hidden",
+}}
+>
 
+
+<iframe
+src="https://www.youtube.com/embed/H4qdMjkgNcg?si=I6Y8qDJ0Nat6kJV6"
+title="How to Transfer Files from iCloud to an External Hard Drive"
+style={{
+position: "absolute",
+top: 0,
+left: 0,
+width: "100%",
+height: "100%",
+}}
+frameBorder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowFullScreen
+/>
+</div>
+
+
+{/* <video
+controls
+style={{
+width: "100%",
+borderRadius: "12px",
+}}
+>
+<source src="/videos/BRAINSTUDIO-fixed.mp4" type="video/mp4" />
+Your browser does not support the video tag.
+</video> */}
 
 
       <hr />
