@@ -19,7 +19,7 @@ export default function BrainStudio() {
         The feature pulls real research papers, uses AI to generate clear summaries, explains why the research matters, 
         identifies the companies and industries that could be affected, and highlights potential market opportunities. 
         It also connects the research to relevant market signals and news to provide additional context. 
-        Rather than spending hours reading technical papers, I can quickly understand emerging technologies, explore new product ideas, 
+        I can quickly understand emerging technologies, explore new product ideas, 
         and evaluate how research may translate into real-world applications. My vision for Brain Studio is to create a single place where research, 
         market intelligence, and strategic thinking come together to support better decision-making and continuous learning.
 
