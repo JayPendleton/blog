@@ -171,7 +171,7 @@ button {
 }
 
 .row-title {
-  font-size: clamp(26px, 4.4vw, 58px);
+  font-size: clamp(26px, 4.4vw, 40px);
   line-height: 0.98;
   letter-spacing: -0.07em;
   font-weight: 300;
