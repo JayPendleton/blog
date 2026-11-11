@@ -37,6 +37,8 @@ export default function HomePage() {
         </Link>
 
         <nav className="nav" aria-label="Main navigation">
+
+          <a href="https://www.instagram.com/jaymayvary/">Instagram</a>
           <a href="#blog">Blog</a>
           <a href="#projects">Projects</a>
           <a href="#notes">Notes</a>
@@ -52,7 +54,7 @@ export default function HomePage() {
             {/* </h1> */}
           <p className="intro-copy">
             Observing how technology shapes attention, identity, taste and decision-making.
-            If something here resonates, I hope it helps you think more clearly about your own path.
+            If something here resonates, I hope it helps you think more clearly about your <u>own</u> path.
             {/* Essays, projects, and notes on personal operating systems,
             agentic software, product taste, and daily execution. */}
           </p>
