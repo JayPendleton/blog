@@ -99,7 +99,7 @@ button {
 .intro h1 {
   max-width: 850px;
   margin: 0;
-  font-size: clamp(46px, 8.2vw, 50px);
+  font-size: clamp(46px, 8.2vw, 60px);
   line-height: 0.94;
   letter-spacing: -0.067em;
   font-weight: 300;
@@ -286,7 +286,7 @@ button {
   }
 
   .intro h1 {
-    font-size: clamp(42px, 16vw, 62px);
+    font-size: clamp(32px, 16vw, 52px);
   }
 
   .intro-copy {
